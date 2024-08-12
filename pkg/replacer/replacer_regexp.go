@@ -1,9 +1,8 @@
 package replacer
 
 import (
+	"fmt"
 	"regexp"
-
-	"github.com/pkg/errors"
 )
 
 var _ Replacer = &regexpReplace{}
@@ -16,7 +15,8 @@ type regexpReplace struct {
 func Regexp(from string, to string) (Replacer, error) {
 	fromRe, err := regexp.Compile(from)
 	if err != nil {
-		return nil, errors.WithMessage(err, "invalid from regexp for regexp replacer")
+		// return nil, errors.WithMessage(err, "invalid from regexp for regexp replacer")
+		return nil, fmt.Errorf("%w: invalid from regexp for regexp replacer")
 	}
 	return &regexpReplace{from: fromRe, to: to}, nil
 }

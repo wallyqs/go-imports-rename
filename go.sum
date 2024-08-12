@@ -18,6 +18,8 @@ github.com/rs/zerolog v1.15.0/go.mod h1:xYTKnLHcpfU2225ny5qZjxnj9NvkumZYjJHlAThC
 github.com/sirkon/errors v0.1.0/go.mod h1:azeNSqLplsbS6YKcxwU5fO1VPfh36jovHUJG8MrSswQ=
 github.com/sirkon/gosrcfmt v1.6.0 h1:r0G2srcFGRD1xtJc7ZSVGJ77wfuXL1x9RPzCsSdu2ZM=
 github.com/sirkon/gosrcfmt v1.6.0/go.mod h1:BND5HTekpv2OQlbrhk55vyurK1tnpGIGxqHxfqTSXZE=
+github.com/sirkon/gosrcfmt v1.7.0 h1:7MZYOKIxKatxFTT3MCQCs/o6nCXuBX7NkWazrc/FnJs=
+github.com/sirkon/gosrcfmt v1.7.0/go.mod h1:BND5HTekpv2OQlbrhk55vyurK1tnpGIGxqHxfqTSXZE=
 github.com/sirkon/message v1.5.1 h1:WkWYJGan4rkpAkZmHC0+Sy2da4orydz1lM6zL+CXAVQ=
 github.com/sirkon/message v1.5.1/go.mod h1:66L/RZsLkQeAw8iJjJAhHg/Wr7g2I6Ewlp3laCsb0RA=
 github.com/stretchr/testify v1.2.2 h1:bSDNvY7ZPG5RlJ8otE/7V6gMiyenm9RtJ7IUVIAoJ1w=
